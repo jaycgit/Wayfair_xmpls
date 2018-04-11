@@ -1,4 +1,6 @@
-﻿#Run cURL connection to vendor to gather path for files to download... results to response_init.xml file
+#Run cURL connection to vendor to gather path for files to download... results to response_init.xml file
+
+Set-ExecutionPolicy AllSigned
 
 cd c:\curl
 .\curl -H "Content-Type: application/xml" -d '@test_post_full.xml' -u username:password -X POST http://api.websitename.com/v1.1/init/xml > response_init.xml
