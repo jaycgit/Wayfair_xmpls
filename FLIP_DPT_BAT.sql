@@ -1,4 +1,4 @@
-#"flips" specific groups of "batches" that have been exported in the past 10 minutes and re-enables them for export.
+#"flips" specific groups of "batches" that have been exported in the past 10 minutes and re-enables them for export to another system.
 
 UPDATE    P_BAT
 SET              PB_S_STATUS = 0 
